@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<title th:text="Real">Fake</title>
+</head>
+<body>
+Isso é um teste Josivelson para mostrar a diferença de caminhos
+<ul>
+<li>ID: <span th:text="${produto.id}">0</span></li>
+<li>NOME: <span th:text="${produto.nome}">Fake name</span></li>
+<li>VALOR: <span th:text="${produto.valor}">007</span></li>
+</ul>
+</body>
+</html>
